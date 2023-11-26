@@ -8,13 +8,13 @@ let counter = 0;
 const increaseCounter = () => {
     counter++
     if(counter === 1){
-        document.body.style.background = "orange",
+        document.body.style.background = "#7bed9f",
         document.body.style.transitions = "1s"
         message.style.color = "white",
         message.innerText = "Thank you, your response has been sent"
     } 
     if(counter === 3){
-        document.body.style.background = "red",
+        document.body.style.background = "#f5cd79",
         message.innerText = "Warning! Your message has already been sent",
         btnLeft.classList.add('brokenBtnLight'),
         btnRight.classList.add('brokenBtnRightLight')
